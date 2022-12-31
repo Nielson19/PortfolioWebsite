@@ -1,0 +1,132 @@
+*,*::before, *::after{
+  box-sizing: border-box;
+}
+
+img, picture, video, svg{
+  display: block;
+  max-width: 100%;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+}
+
+body{
+
+  background-blend-mode: darken;
+  /*background-image: url("../img/myself_art_2.png");*/
+  min-height: 100%;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  height: 4092px;
+
+}
+.title{
+  padding: 14px 20px;
+  background-color: #6dce8d;
+  align-content: center;
+  width: 100%;
+}
+.logo{
+  position: relative;
+  left: 35%;
+  image-orientation: flip;
+}
+
+.topnav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #e3c32b;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+.topnav .header_list li {
+  float: left;
+  list-style: none;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  transition: 0.5s;
+  background-color: #e3c32b;
+  /*background-image: linear-gradient(#e3c32b, #e3c32b);*/
+
+}
+
+.topnav .header_list li:hover {
+  padding: 14px 16px;
+  color: white;
+  transition: 0.5s;
+  background-color: #c13f7e;
+  /*background-image: linear-gradient(#c13f7e,#e3c32b);*/
+
+}
+
+.topnav li.active {
+  background-color: #e3c32b;
+  color: black;
+}
+/*this needs to be fixed since im planning to add it a scroll selection*/
+
+.about{
+  color: #dddddd;
+}
+.description{
+  color: white;
+  width: 40%;
+  margin-left: 40px;
+
+}
+
+
+
+
+
+
+/*.savie-songs{*/
+/*  list-style: none;*/
+/*  position: relative;*/
+/*  top: 100px;*/
+/*  left: 10%;*/
+
+/*.savie-songs li{*/
+/*  margin-bottom: 10px;*/
+/*}*/
+
+
+/*.Axell_Sun img{*/
+/*  position: absolute;*/
+/*  top: 1000px;*/
+/*  left: 65%;*/
+/*}*/
+/*.axell-songs{*/
+/*  list-style: none;*/
+/*  position: relative;*/
+/*  top: 450px;*/
+/*  left: 10%;*/
+/*}*/
+/*.axell-songs li {*/
+/*  margin-bottom: 10px;*/
+/*}*/
+
+/*.Mafi_Rome img{*/
+/*  position: absolute;*/
+/*  top: 1600px;*/
+/*  left: 65%;*/
+/*}*/
+/*.mafi-songs{*/
+/*  list-style: none;*/
+/*  position: relative;*/
+/*  top: 900px;*/
+/*  left: 10%;*/
+/*}*/
+/*.mafi-songs li {*/
+/*  margin-bottom: 10px;*/
+/*}*/
