@@ -17,7 +17,7 @@ img, picture, video, svg{
 body{
 
   background-blend-mode: darken;
-  /*background-image: url("../img/myself_art_2.png");*/
+  background-image: url("../img/myself_art.png");
   min-height: 100%;
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
@@ -84,49 +84,41 @@ body{
   margin-left: 40px;
 
 }
+.music li{
+  opacity: 50%;
+  transition: 1.0s;
+}
+.music li:hover{
+   transition: 1.0s;
+   opacity: 100%;
+ }
 
+#savieVideo video{
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  /*transform: scaleX(-1);*/
+}
+#axellVideo video{
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  transform: scaleX(-1);
+}
 
+#mafiVideo video{
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
 
+.content{
+  position: relative;
+}
 
-
-
-/*.savie-songs{*/
-/*  list-style: none;*/
-/*  position: relative;*/
-/*  top: 100px;*/
-/*  left: 10%;*/
-
-/*.savie-songs li{*/
-/*  margin-bottom: 10px;*/
-/*}*/
-
-
-/*.Axell_Sun img{*/
-/*  position: absolute;*/
-/*  top: 1000px;*/
-/*  left: 65%;*/
-/*}*/
-/*.axell-songs{*/
-/*  list-style: none;*/
-/*  position: relative;*/
-/*  top: 450px;*/
-/*  left: 10%;*/
-/*}*/
-/*.axell-songs li {*/
-/*  margin-bottom: 10px;*/
-/*}*/
-
-/*.Mafi_Rome img{*/
-/*  position: absolute;*/
-/*  top: 1600px;*/
-/*  left: 65%;*/
-/*}*/
-/*.mafi-songs{*/
-/*  list-style: none;*/
-/*  position: relative;*/
-/*  top: 900px;*/
-/*  left: 10%;*/
-/*}*/
-/*.mafi-songs li {*/
-/*  margin-bottom: 10px;*/
-/*}*/
